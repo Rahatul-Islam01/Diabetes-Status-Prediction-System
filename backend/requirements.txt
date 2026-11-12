@@ -1,0 +1,13 @@
+# Backend dependencies for Diabetes Status Prediction System
+# Python 3.11
+Flask==2.3.2
+Flask-Cors==4.0.0
+pandas==2.1.4
+numpy==1.26.4
+scikit-learn==1.3.2
+scipy==1.11.4
+xgboost==2.0.3
+shap==0.44.1
+matplotlib==3.8.2
+joblib==1.3.2
+requests==2.31.0

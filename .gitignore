@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environment
+E:/venvs/
+*.venv
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data / models (large artifacts - regenerate via scripts)
+dataset/raw/*.xpt
+dataset/processed/*.csv
+backend/saved_models/*.pkl
+backend/saved_models/*.json
+backend/saved_models/*.csv
+reports/*.json
+reports/*.npz
+reports/figures/*.png
+
+# Logs
+*.log
